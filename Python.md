@@ -19,6 +19,6 @@ Traceback (most recent call last):
     from pip import main
 ImportError:cannot import name main
 ```
-### Solution2
+#### Solution2
 > ` sudo gedit /usr/bin/pip`  
 > then correct ` sys.exit(main()) ` to `sys.exit(__main__._main()) `  
