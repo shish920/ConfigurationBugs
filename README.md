@@ -25,7 +25,7 @@ ImportError:cannot import name main
 ```
 #### Solution2
 > ` sudo gedit /usr/bin/pip`  
-> then correct ` sys.exit(main()) ` to `sys.exit(__main__._main()) `  
+> then correct ` from pip import main` to `from pip import __main__` and`sys.exit(main()) ` to `sys.exit(__main__._main()) `  
 
 ## OpenCV   
 > OpenCV 3.4.0   
