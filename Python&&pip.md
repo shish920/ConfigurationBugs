@@ -21,3 +21,11 @@ ImportError:cannot import name main
 #### Solution2
 > ` sudo gedit /usr/bin/pip`  
 > then correct ` from pip import main` to `from pip import __main__` and`sys.exit(main()) ` to `sys.exit(__main__._main()) `  
+
+#### Problem3
+pip install xxx so slowly
+
+#### Solution3
+add parameter -i 
+>pip install xxx -i https://pypi.tuna.tsinghua.edu.cn/simple
+reference:https://zhuanlan.zhihu.com/p/46975553
