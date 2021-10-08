@@ -29,3 +29,9 @@ pip install xxx so slowly
 add parameter -i 
 >pip install xxx -i https://pypi.tuna.tsinghua.edu.cn/simple
 reference:https://zhuanlan.zhihu.com/p/46975553
+
+#### Problem4
+vscode jupyter can not show plt.show() 
+
+#### Solution4
+jupyter labextension install jupyterlab-plotly
