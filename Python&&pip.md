@@ -34,4 +34,4 @@ reference:https://zhuanlan.zhihu.com/p/46975553
 vscode jupyter can not show plt.show() 
 
 #### Solution4
-jupyter labextension install jupyterlab-plotly
+%matplotlib inline
